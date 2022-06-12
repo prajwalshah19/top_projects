@@ -1,0 +1,55 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    text-align: center;
+    list-style: none;
+}
+
+#mainTitle {
+
+    font-size: 60px;
+
+}
+
+a{font-weight: bold;}
+
+a:link { 
+    text-decoration: none; 
+    color:brown;
+
+}
+
+
+a:visited { 
+    text-decoration: none;
+    color:brown;
+
+}
+
+
+a:hover {
+    
+    text-decoration: none; 
+    color:blue;
+}
+
+
+a:active { text-decoration: none; }
+
+img {
+    width: 400px;
+    height: auto;
+    
+}
+
+.mid {
+
+    font-size: 20px;
+}
+
+.mid.recipe {
+
+    color: chocolate;
+    line-height: 1.5;
+}
