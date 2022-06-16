@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  background: #eee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background: #D9D9D9;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  
+}
+
+.icon {
+    height: 40px;
+}
+
+.logo {
+  height: 50px;
+}
+
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: #828535;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  
+}
+
+.links {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.left {
+
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.mid-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/home_background.jpg);
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(130, 133, 53 , 0.7);
+    min-height: 600px;
+    justify-content: center;
+    
+    
+    
+}
+
+@keyframes text-appear {
+    from {color: rgba(255, 255, 255, 0);}
+    to {color: white;}
+}
+
+.mid-text {
+
+    animation-name: text-appear;
+    animation-duration: 3s;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    
+}
+  
+#quote-main {
+
+    font-size: 40px;
+}
+
+#quote-name {
+    font-size: 20px;
+
+}
+
+.mid-2{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #828535;
+    min-height: 400px;
+}
+
+.mid-2-content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 12px;
+    line-height: 1.6;
+}
+
+.profile-photo{
+
+    height: 250px;
+    width: auto;
+    border-radius: 5%;
+}
+
+.mid-3{
+
+    background-color: #828535;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.mid-3-content {
+
+    display: flex;
+}
+
+.card {
+    border-radius: 10%;
+    margin: 30px;
+    padding: auto;
+    background-color: #D9D9D9;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #828535;
+    
+
+}
+
+.footer {
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    color: #828535;
+}
+  
